@@ -1,0 +1,51 @@
+.category-container .category-items img {
+  width: 70px;
+  height: 70px;
+}
+
+.mobile-item img {
+  width: 180px;
+}
+
+.ad-item img {
+  width: 250px;
+}
+
+@media screen and (max-width: 486px) {
+  .mobile-item img {
+    width: 80px;
+  }
+
+  .ad-item img {
+    width: 100px;
+  }
+}
+
+.scrollable-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.scrollable-item {
+  width: 180px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #e0e0e0;
+  border-radius: 4px;
+  display: inline-block;
+  text-align: center;
+}
+
+.scrollable-item img {
+  height: 150px;
+}
+
+.scrollable-menu {
+  width: 150px;
+  height: 70px;
+  margin: 10px;
+  padding: 10px;
+
+  display: inline-block;
+  text-align: center;
+}
